@@ -1,0 +1,199 @@
+<!-- Prompt: E-commerce Shop
+
+Design an e-commerce shop. Is it simple for a local business or a large online retailer? Is it for clothing, shoes, handmade soap, or something else? 
+
+Consider the brand, the products offered, product views, product options, desired actions (conversions, product views, pricing options, etc.) and of course, the users! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav>
+        <img src="https://www.sheryians.com/Sheryians_Logo_wFKd9VClG.png" alt="logo">
+
+        <input type="text" placeholder="&#xF002; Type here to search" style="font-family:Arial, FontAwesome" />
+
+        <div class="middle-section">
+            <h1>Home</h1>
+            <select>
+                    <option>Products</option>
+                    <option>Laptop</option>
+                    <option>Phone</option>
+                    <option>Shoes</option>
+            </select>
+            <h1>Promo</h1>
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="icon-section">
+            <i class="ri-notification-3-line"></i>
+            <i class="ri-message-2-fill"></i>
+            <i class="ri-store-2-line"></i>
+            <i class="ri-shopping-cart-2-line"></i>
+        </div>
+
+        <h1>|</h1>
+        
+        <img src="1.jpg" alt="account">
+    </nav>
+    
+    <div class="container">
+
+        <div class="box-1">
+            <div class="section">
+                <h1>Merchant type</h1>
+                <div><input type="checkbox">Official store<i class="ri-vip-crown-line"></i></div>
+                <div><input type="checkbox">Recommend merchant<i class="ri-check-line"></i></div>
+                <div><input type="checkbox">Top merchant<i class="ri-fire-fill"></i></div>
+                <div><input type="checkbox">Dropshiper<i class="ri-briefcase-line"></i></div>
+            </div>
+            <div class="section">
+                <h1>Locations</h1>
+                <div><input type="checkbox">Bhopal</div>
+                <div><input type="checkbox">Delhi</div>
+                <div><input type="checkbox">Mumbai</div>
+                <div><input type="checkbox">Chennai</div>
+                <div><input type="checkbox">Bengaluru</div>
+                <div><input type="checkbox">Kolkata</div>
+            </div>
+            <div class="section">
+                <h1>Price range</h1>
+                <div><input type="radio" name="group-1">0 - 5,000 Rs.</div>
+                <div><input type="radio" name="group-1">5,001 - 10,000 Rs.</div>
+                <div><input type="radio" name="group-1">10,001 - 20,000 Rs.</div>
+                <div><input type="radio" name="group-1">20,000+ Rs.</div>
+            </div>
+        </div>
+
+        <div class="box-2">
+
+            <h1>Showing results for 'Nike Shoe'</h1>
+            
+            <div class="sort">
+                <h3>Sort by:</h3>
+                <button>Popular</button>
+                <button>Newest</button>
+                <button>Price</button>
+            </div>
+
+            <div class="shoes">
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6804613a-ab0e-4927-9fa6-2d3d98890541/pegasus-trail-4-trail-running-shoes-LP9MFR.png">
+                    <figcaption>
+                        <div>Nike Pegasus Trail 4</div>
+                        <div>Men's Trail-Running</div>
+                        <div>₹ 11 595.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/08c7828f-18bd-4585-a751-572abd375ba1/air-force-1-07-shoes-5fFrTT.png">
+                    <figcaption>
+                        <div>Nike Air Force 1 '07 </div>
+                        <div>Men's Shoes </div>
+                        <div>₹ 10 695.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7592c1ff-7fa3-4f97-9fcf-9b581e73ce25/jordan-spizike-low-shoes-pBZk7c.png">
+                    <figcaption>
+                        <div>Jordan Spizike Low</div>
+                        <div>Men's Shoes</div>
+                        <div>₹ 14 995.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bb5e235a-9096-44cd-af79-f8f09da6683c/air-jordan-1-retro-high-og-latte-shoes-fTHb42.png">
+                    <figcaption>
+                        <div>Air Jordan 1 Retro</div>
+                        <div>Women's Shoes</div>
+                        <div>₹ 16 995.00</div>
+                        <i class="icon-1 ri-heart-add-fill"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/432e60d3-724d-4b03-9063-fe712c21704b/jumpman-mvp-shoes-JV1HCs.png">
+                    <figcaption>
+                        <div>Jumpman MVP</div>
+                        <div>Men's Shoes</div>
+                        <div>₹ 15 295.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+            
+            </div>
+
+            <div class="shoes">
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8454b438-1a9d-4788-8750-00a57baf6da0/elevate-3-basketball-shoes-QT43Gj.png">
+                    <figcaption>
+                        <div>Nike Elevate 3</div>
+                        <div>Basketball Shoes</div>
+                        <div>₹ 10 095.00</div>
+                        <i class="icon-1 ri-heart-add-fill"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bfc0f800-be7e-4680-95aa-054935b36551/cortez-textile-shoes-1Tm7zf.png">
+                    <figcaption>
+                        <div>Nike Cortez Textile</div>
+                        <div>Shoes</div>
+                        <div>₹ 10 495.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ba8325e8-9aec-4cd0-8f1c-fc071ed5e122/metcon-9-amp-workout-shoes-Dwx2GX.png">
+                    <figcaption>
+                        <div>Nike Metcon 9</div>
+                        <div>Men's Workout</div>
+                        <div>₹ 12 795.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/61abf749-ed21-43c6-96ed-15e26fbc9453/p-6000-shoes-QcQbpx.png">
+                    <figcaption>
+                        <div>LeBron NXXT </div>
+                        <div>Basketball Shoes</div>
+                        <div>₹ 14 247.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/295d53cf-c2c2-4643-b598-c34826891642/air-peg-2k5-coconut-milk-and-bicoastal-fz2590-100-release-date.jpg">
+                    <figcaption>
+                        <div>Nike Precision 7</div>
+                        <div>Men's Basketball</div>
+                        <div>₹ 15 695.00</div>
+                        <i class="icon-1 ri-heart-add-line"></i>
+                        <i class="icon-2 ri-star-fill"></i><span>4.8</span>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
